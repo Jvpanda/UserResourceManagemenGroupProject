@@ -1,0 +1,32 @@
+Resource Type: SportCourt
+ID: 1
+Name: SquidwardTennisBalls
+Start Time: 12:14
+End Time: 12:02
+Reservation Length: 10
+Sport Type: SportSport
+Seathing Capacity: 11
+
+Resource Type: SportCourt
+ID: 2
+Name: sdf
+Start Time: 12:12
+End Time: 12:12
+Reservation Length: 10
+Sport Type: SportSport
+Seathing Capacity: 11
+
+Reservation:
+Student: Student 1
+Time: 10:15
+Duration: 30
+
+Resource Type: SportCourt
+ID: 3
+Name: 142jfklsd
+Start Time: 12:12
+End Time: 12:12
+Reservation Length: 10
+Sport Type: SportSport
+Seathing Capacity: 11
+
