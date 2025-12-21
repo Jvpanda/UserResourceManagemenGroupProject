@@ -6,16 +6,17 @@
 class SportCourt : public Resource
 {
         public:
-                SportCourt(const int aID, const std::string aName,
+                SportCourt(const int aID,
+                           const std::string &aName,
+                           const std::string &aLocation,
                            const int aBeginningAvailabilityHour,
                            const int aBeginningAvailabilityMinute,
                            const int aEndAvailabilityHour,
                            const int aEndAvailabilityMinute,
                            const int aAvailabilityInterval,
-                           const std::string aSport,
+                           const std::string &aSport,
                            const int aSeatingCapacity);
                 SportCourt();
-
                 ~SportCourt();
 
                 // Getters
@@ -26,9 +27,7 @@ class SportCourt : public Resource
                 void setSportType(std::string aSportType);
                 void setSeatingCapacity(int aSeatingCapacity);
 
-                const void Print(std::ostream &os) override;
-                friend std::ostream &operator<<(std::ostream &os,
-                                                Resource &resource);
+                void Print(std::ostream &os) const override;
 
         private:
                 std::string SportType;
